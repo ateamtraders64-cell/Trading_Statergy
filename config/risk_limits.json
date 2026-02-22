@@ -1,0 +1,47 @@
+{
+  "portfolio_limits": {
+    "max_daily_loss_pct": 0.02,
+    "max_weekly_loss_pct": 0.05,
+    "max_monthly_loss_pct": 0.10,
+    "max_portfolio_exposure_pct": 0.80,
+    "max_single_position_pct": 0.10,
+    "max_sector_exposure_pct": 0.20,
+    "max_correlation_threshold": 0.70,
+    "max_leverage": 1.0,
+    "halt_trading_on_daily_loss": true
+  },
+  "position_limits": {
+    "max_hold_days": 30,
+    "min_holding_period_days": 1,
+    "max_concurrent_trades": 10,
+    "min_profit_threshold_pct": 0.01,
+    "min_bars_for_trend_confirmation": 2,
+    "max_position_age_days": 30
+  },
+  "order_limits": {
+    "max_order_size": 10000,
+    "min_order_size": 100,
+    "max_orders_per_minute": 10,
+    "max_orders_per_day": 50
+  },
+  "volatility_limits": {
+    "max_implied_volatility_pct": 100,
+    "min_liquidity_aum": 1000000,
+    "max_bid_ask_spread_pct": 0.05
+  },
+  "concentration_limits": {
+    "max_sector_weight_pct": 25,
+    "max_country_weight_pct": 30,
+    "max_asset_class_weight_pct": 60
+  },
+  "counterparty_limits": {
+    "max_broker_exposure_pct": 20,
+    "max_single_counterparty_pct": 10
+  },
+  "monitoring": {
+    "check_frequency_seconds": 60,
+    "alert_on_limit_breach": true,
+    "auto_liquidate_on_max_loss": true,
+    "daily_risk_report": true
+  }
+}

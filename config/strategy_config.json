@@ -1,0 +1,66 @@
+{
+  "strategies": {
+    "trend_following_v1": {
+      "name": "Trend Following Strategy v1",
+      "description": "Moving average crossover strategy",
+      "enabled": true,
+      "parameters": {
+        "fast_ma_period": 10,
+        "slow_ma_period": 30,
+        "ema_period": 20,
+        "min_confidence": 0.65,
+        "position_size_pct": 0.02,
+        "stop_loss_pct": 0.02,
+        "take_profit_pct": 0.05
+      },
+      "symbols": ["AAPL", "GOOGL", "MSFT", "AMZN"],
+      "timeframe": "daily"
+    },
+    "mean_reversion_v1": {
+      "name": "Mean Reversion Strategy v1",
+      "description": "Bollinger Bands based mean reversion",
+      "enabled": false,
+      "parameters": {
+        "period": 20,
+        "std_dev_multiplier": 2.0,
+        "rsi_period": 14,
+        "min_confidence": 0.70,
+        "position_size_pct": 0.015,
+        "stop_loss_pct": 0.03,
+        "take_profit_pct": 0.04
+      },
+      "symbols": ["AAPL", "GOOGL", "MSFT"],
+      "timeframe": "daily"
+    },
+    "breakout_v1": {
+      "name": "Breakout Strategy v1",
+      "description": "Support/resistance breakout strategy",
+      "enabled": false,
+      "parameters": {
+        "lookback_period": 20,
+        "breakout_threshold_pct": 0.02,
+        "min_confidence": 0.75,
+        "position_size_pct": 0.025,
+        "stop_loss_pct": 0.025,
+        "take_profit_pct": 0.06
+      },
+      "symbols": ["AAPL", "MSFT", "AMZN"],
+      "timeframe": "daily"
+    }
+  },
+  "backtesting": {
+    "default_initial_capital": 100000,
+    "commission_rate": 0.001,
+    "slippage_pct": 0.001,
+    "min_data_points": 252,
+    "walk_forward_enabled": true,
+    "train_period_days": 500,
+    "test_period_days": 100
+  },
+  "data_sources": {
+    "primary": "polygon.io",
+    "backup": "alpha_vantage",
+    "cache_enabled": true,
+    "cache_ttl_seconds": 3600
+  }
+}
