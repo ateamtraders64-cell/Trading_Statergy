@@ -1,0 +1,239 @@
+{
+  "daily_habits": [
+    {
+      "id": "check_economic_calendar",
+      "name": "Check Economic Calendar",
+      "description": "Review upcoming economic events and their impact",
+      "emoji": "📅",
+      "goal": 15,
+      "category": "preparation",
+      "importance": 5
+    },
+    {
+      "id": "higher_timeframe_analysis",
+      "name": "Higher Timeframe Analysis",
+      "description": "Analyze higher timeframes for trend confirmation",
+      "emoji": "📊",
+      "goal": 10,
+      "category": "preparation",
+      "importance": 5
+    },
+    {
+      "id": "draw_on_key_levels",
+      "name": "Draw On Key Levels",
+      "description": "Identify and mark support/resistance levels",
+      "emoji": "📈",
+      "goal": 10,
+      "category": "preparation",
+      "importance": 4
+    },
+    {
+      "id": "check_sentiment",
+      "name": "Check Sentiment",
+      "description": "Review market sentiment and trader positioning",
+      "emoji": "😊",
+      "goal": 15,
+      "category": "preparation",
+      "importance": 3
+    },
+    {
+      "id": "no_trades_first_5_mins",
+      "name": "No Trades in 1st 5 mins",
+      "description": "Wait 5 minutes after market open before trading",
+      "emoji": "⏱️",
+      "goal": 15,
+      "category": "risk",
+      "importance": 4
+    },
+    {
+      "id": "review_major_markets",
+      "name": "Review Major Markets",
+      "description": "Check movements in major market indices",
+      "emoji": "🌍",
+      "goal": 15,
+      "category": "preparation",
+      "importance": 4
+    },
+    {
+      "id": "always_enter_stop",
+      "name": "Always Enter A Stop",
+      "description": "Never enter a trade without a predefined stop loss",
+      "emoji": "🛑",
+      "goal": 15,
+      "category": "risk",
+      "importance": 5
+    },
+    {
+      "id": "no_meddling_trades",
+      "name": "No Meddling With Trades",
+      "description": "Don't adjust stops or move trades unnecessarily",
+      "emoji": "🚫",
+      "goal": 15,
+      "category": "psychology",
+      "importance": 4
+    },
+    {
+      "id": "only_planned_trades",
+      "name": "Only Take Planned Trades",
+      "description": "Follow your trading plan, no impulse trades",
+      "emoji": "📋",
+      "goal": 15,
+      "category": "execution",
+      "importance": 5
+    },
+    {
+      "id": "max_5_trades_per_day",
+      "name": "5 Trades Per Day Max",
+      "description": "Don't exceed 5 trades in a single trading day",
+      "emoji": "5️⃣",
+      "goal": 15,
+      "category": "risk",
+      "importance": 4
+    },
+    {
+      "id": "stick_to_risk_rules",
+      "name": "Stick To Daily Risk Rules",
+      "description": "Adhere to your maximum daily loss limit",
+      "emoji": "💰",
+      "goal": 15,
+      "category": "risk",
+      "importance": 5
+    },
+    {
+      "id": "journal_trades",
+      "name": "Journal Trades",
+      "description": "Write journal entries for all trades taken",
+      "emoji": "📝",
+      "goal": 15,
+      "category": "review",
+      "importance": 4
+    },
+    {
+      "id": "take_walk_at_lunch",
+      "name": "Take a Walk At Lunch",
+      "description": "Step away from screens during lunch break",
+      "emoji": "🚶",
+      "goal": 15,
+      "category": "psychology",
+      "importance": 3
+    },
+    {
+      "id": "calculate_rvr",
+      "name": "Calculate RVR",
+      "description": "Calculate Risk-to-Reward Ratio before entry",
+      "emoji": "📐",
+      "goal": 15,
+      "category": "execution",
+      "importance": 4
+    },
+    {
+      "id": "mark_intraday_charts",
+      "name": "Mark Up Intraday Charts",
+      "description": "Prepare and mark key levels on intraday charts",
+      "emoji": "✏️",
+      "goal": 15,
+      "category": "preparation",
+      "importance": 4
+    }
+  ],
+  "weekly_habits": [
+    {
+      "id": "review_all_trades",
+      "name": "Review All Trades",
+      "description": "Comprehensive review of all trades from the week",
+      "emoji": "✅",
+      "goal": 1,
+      "category": "review"
+    },
+    {
+      "id": "analyse_charts",
+      "name": "Analyse Charts",
+      "description": "Deep analysis of price action and setups",
+      "emoji": "📊",
+      "goal": 1,
+      "category": "analysis"
+    },
+    {
+      "id": "watch_trading_videos",
+      "name": "Watch Trading Videos",
+      "description": "Educational content consumption and learning",
+      "emoji": "📹",
+      "goal": 1,
+      "category": "education"
+    },
+    {
+      "id": "write_weekly_goals",
+      "name": "Write Goals For The Week",
+      "description": "Plan and write trading goals for upcoming week",
+      "emoji": "✍️",
+      "goal": 1,
+      "category": "planning"
+    },
+    {
+      "id": "read_trading_book",
+      "name": "Read Trading Book",
+      "description": "Read trading or market-related educational material",
+      "emoji": "📚",
+      "goal": 1,
+      "category": "education"
+    },
+    {
+      "id": "analyze_losses",
+      "name": "Analyze Losing Trades",
+      "description": "Deep dive into what went wrong in losses",
+      "emoji": "🔍",
+      "goal": 1,
+      "category": "review"
+    },
+    {
+      "id": "plan_new_setups",
+      "name": "Plan New Setups",
+      "description": "Identify and plan new trading setups",
+      "emoji": "🎯",
+      "goal": 1,
+      "category": "planning"
+    },
+    {
+      "id": "relax_unwind",
+      "name": "Relax and Unwind",
+      "description": "Take time to relax and manage trading stress",
+      "emoji": "😌",
+      "goal": 1,
+      "category": "wellness"
+    }
+  ],
+  "monthly_goals": {
+    "overall_discipline_target": 85,
+    "max_monthly_loss_pct": 3,
+    "min_monthly_win_rate": 50,
+    "max_consecutive_losses": 3,
+    "consistency_target": 80
+  },
+  "categories": {
+    "preparation": {
+      "name": "Preparation & Planning",
+      "color": "#4CAF50",
+      "importance": "High"
+    },
+    "risk": {
+      "name": "Risk Management",
+      "color": "#FF5252",
+      "importance": "Critical"
+    },
+    "execution": {
+      "name": "Trade Execution",
+      "color": "#2196F3",
+      "importance": "High"
+    },
+    "psychology": {
+      "name": "Psychology & Discipline",
+      "color": "#FF9800",
+      "importance": "High"
+    },
+    "review": {
+      "name": "Review & Analysis",
+      "color": "#9C27B0",
+      "importance": "Medium"
+    }
+  }
+}
